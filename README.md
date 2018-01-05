@@ -308,9 +308,9 @@ you can add things into an array with `arr.push(value)`
 
 ```
 var human = {
-  firstName = "Jake",
-  lastName = "Larson",
-  age = 34,
+  firstName: "Jake",
+  lastName: "Larson",
+  age: 34,
   hobbies: ['Hiking', 'Programming', 'Video Games'],
   skills: {
     programmingLanguage: ['Javascript', 'Java', 'Python']
