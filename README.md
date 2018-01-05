@@ -86,18 +86,19 @@ A lot of computing work involves representing real world things into a digital f
 
 ```
 var chessboard = [
-  [BR,BK,BB,BQ,BC,BB,BK,BR],
-  [BP,BP,BP,BP,BP,BP,BP,BP],
-  [XX,XX,XX,XX,XX,XX,XX,XX],
-  [XX,XX,XX,XX,XX,XX,XX,XX],
-  [XX,XX,XX,XX,XX,XX,XX,XX],
-  [XX,XX,XX,XX,XX,XX,XX,XX],
-  [WP,WP,WP,WP,WP,WP,WP,WP],
-  [WR,WK,WB,WC,WQ,WB,WK,WR],
+  ['BR','BK','BB','BQ','BC','BB','BK','BR'],
+  ['BP','BP','BP','BP','BP','BP','BP','BP'],
+  ['XX','XX','XX','XX','XX','XX','XX','XX'],
+  ['XX','XX','XX','XX','XX','XX','XX','XX'],
+  ['XX','XX','XX','XX','XX','XX','XX','XX'],
+  ['XX','XX','XX','XX','XX','XX','XX','XX'],
+  ['WP','WP','WP','WP','WP','WP','WP','WP'],
+  ['WR','WK','WB','WC','WQ','WB','WK','WR'],
 ]
 
 console.log(chessboard[0][3]) // BQ
-console.log(chessboard[0][3]) // WR
+console.log(chessboard[7][7]) // WR
+
 ```
 
 As you can see we now have a digital representation of where each piece is programatically.
